@@ -1,0 +1,55 @@
+*
+{
+    border:1px solid black
+font-family: 'Nunito',sans-serif;
+    box-sizing: border-box;
+}
+h1
+{
+    text-align: center;
+    text-decoration: solid ;
+    text-transform: uppercase;
+    text-decoration-color:blue;
+}
+.imageMain
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    
+}
+a
+{
+    text-decoration: none ;
+    color:black;
+}
+a:hover{
+    color: rgb(red, green, blue);
+    background-color: dodgerblue;
+}
+a:visited{
+    color:brown;
+}
+a:active{
+    background-color: blueviolet;
+}
+.btn
+{
+    display:block;
+    margin:auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: crimson;
+    padding: 6px;
+    border: none;
+    cursor:pointer;
+    font-size:13px;
+    border-radius: 4px;
+
+}
+btn:hover
+{
+    color:azure
+    background-color: cadetblue;
+}
